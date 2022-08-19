@@ -10,4 +10,9 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+- Install docker and docker-compose
+- Check version of docker using `docker --version` and `docker-compose --version`
+- clone the repo using `git clone git@github.com:ObelusFamily/Anythink-Market-0qqtm.git` to your local machine
+- go to repo folder in your `terminal`
+- run `docker-compose up`
+- both and backend and frontend servers must be running on ports `3000` and `3001`
